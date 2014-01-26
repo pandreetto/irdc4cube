@@ -1,0 +1,11 @@
+# Defaults for irdc4cube initscript
+# sourced by /etc/init.d/irdc4cube
+# installed at /etc/default/irdc4cube by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS="-c /etc/irdc4cube/irdc4cube.conf" 
+

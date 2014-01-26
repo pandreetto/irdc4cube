@@ -1,0 +1,12 @@
+Source: irdc4cube
+Section: misc
+Priority: optional
+Maintainer: Paolo Andreetto <paolo@prosa.it>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.0
+
+Package: irdc4cube
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Infra-red device control daemon
+ The daemon maps infra-red device inputs onto shell commands
